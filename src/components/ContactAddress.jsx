@@ -17,7 +17,7 @@ function ContactAddress() {
             +880 1953699363
             </a>
         </main>
-        <aside className="vector-img w-1/2 h-auto">
+        <aside className="vector-img w-full lg:w-1/2 h-auto">
           <img src={vector} alt="contact" className="w-2/3 m-auto" />
         </aside>
     </section>

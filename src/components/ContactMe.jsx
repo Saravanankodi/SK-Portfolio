@@ -10,10 +10,10 @@ function ContactMe() {
   return (
     <>
     <section className="contact h-auto w-full flex items-center justify-center p-5">
-        <aside className="img lg:w-1/3 h-auto">
+        <aside className="img w-full lg:w-1/3 h-auto">
             <img src={vector} alt="contact" className="w-2/3 m-auto" />
         </aside>
-        <main className="h-auto lg:w-2/3">
+        <main className="h-auto w-full  lg:w-2/3">
             <h1 className="heading text-center text-4xl lg:text-5xl my-5">
                 Contact Me
             </h1>
