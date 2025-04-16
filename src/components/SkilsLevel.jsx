@@ -3,12 +3,12 @@ import React from 'react'
 function SkilsLevel(props) {
   return (
     <>
-        <section>
-          <h2 className="text text-2xl">
-            {props.titel}
+        <section className='w-full my-5 m-auto'>
+          <h2 className="text text-xl ">
+            {props.title}
           </h2>
-            <div className="h-5 bg-white rounded-xl">
-                <span className='h-5 bg-blue-500 block' style={{width:props.width}}></span>
+            <div className="h-5 bg-white rounded-xl w-full">
+                <span className='h-5 bg-blue-500 block rounded-lg' style={{width:props.width}}></span>
             </div>
         </section>
     </>

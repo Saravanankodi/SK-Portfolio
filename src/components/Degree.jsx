@@ -11,7 +11,7 @@ function Degree() {
             <aside className="logo w-1/4 h-auto">
 
             </aside>
-            <main className="condent block my-5 relative lg:w-3/4 h-max border-2 border-black rounded-xl">
+            <main className="condent block my-5 relative lg:w-3/4 h-max border-2 border-white rounded-xl">
                 <header className="w-full h-max lg:h-20 lg:flex justify-between items-center lg:p-2.5 rounded-xl bg-blue-500">
                     <div className="name lg:leading-10 p-2.5">
                         <h2 className="heading text-2xl">
@@ -31,16 +31,16 @@ function Degree() {
                     </div>
                 </header>
                 <ul className="list h-4/5 p-5 my-2.5 leading-8">
-                    <li className="text"> I have studied basic software engineering subjects like DS, Algorithms, OOP, DBMS, OS, CA, AI etc.</li>
-                    <li className="text">Apart from this, I have done courses on Deep Learning and Full Stack Development.</li>
-                    <li className="text"> Placed 4th in my class</li>
-                    <li className="text">Dean's List.</li>
-                    <li className="text">I was selected for ITEE Training Program which comprised of 20 students in the CSE department.</li>
-                    <li className="text"> Elected as the team leader in all the group projects.</li>
+                    <li className="text text-justify"> I have studied basic software engineering subjects like DS, Algorithms, OOP, DBMS, OS, CA, AI etc.</li>
+                    <li className="text text-justify">Apart from this, I have done courses on Deep Learning and Full Stack Development.</li>
+                    <li className="text text-justify"> Placed 4th in my class</li>
+                    <li className="text text-justify">Dean's List.</li>
+                    <li className="text text-justify">I was selected for ITEE Training Program which comprised of 20 students in the CSE department.</li>
+                    <li className="text text-justify"> Elected as the team leader in all the group projects.</li>
                 </ul>
-                <a href="" className="btn block w-fit absolute bottom-2 right-2">
+                {/* <a href="" className="btn block w-fit absolute bottom-2 right-2">
                     Visite Website
-                </a>
+                </a> */}
             </main>
         </div>
     </section>

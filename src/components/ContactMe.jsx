@@ -9,7 +9,7 @@ import vector from './../assets/developer.svg'
 function ContactMe() {
   return (
     <>
-    <section className="contact h-auto w-full flex items-center justify-center p-5">
+    <section className="contact h-auto w-full lg:flex items-center justify-center p-5">
         <aside className="img w-full lg:w-1/3 h-auto">
             <img src={vector} alt="contact" className="w-2/3 m-auto" />
         </aside>
@@ -22,19 +22,19 @@ function ContactMe() {
             </p>
             <div className="icons lg:w-3/4 flex items-center justify-center gap-5 m-auto">
                             <a href="">
-                                <img src={github} alt="" className='h-12 w-12 lg:h-16 lg:w-16 ' />
+                                <img src={github} alt="" className='h-10 w-10 lg:h-16 lg:w-16 ' />
                             </a>
                             <a href="">
-                                <img src={google} alt=""  className='h-12 w-12 lg:h-16 lg:w-16'/>
+                                <img src={google} alt=""  className='h-10 w-10 lg:h-16 lg:w-16'/>
                             </a>
                             <a href="">
-                                <img src={linkedin} alt="" className='h-12 w-12 lg:h-16 lg:w-16' />
+                                <img src={linkedin} alt="" className='h-10 w-10 lg:h-16 lg:w-16' />
                             </a>
                             <a href="">
-                                <img src={instagram} alt="" className='h-12 w-12 lg:h-16 lg:w-16' />
+                                <img src={instagram} alt="" className='h-10 w-10 lg:h-16 lg:w-16' />
                             </a>
                             <a href="">
-                                <img src={meta} alt="" className='h-12 w-12 lg:h-16 lg:w-16' />
+                                <img src={meta} alt="" className='h-10 w-10 lg:h-16 lg:w-16' />
                             </a>
             </div>
             <a href="" className="btn block w-fit my-2.5 m-auto">

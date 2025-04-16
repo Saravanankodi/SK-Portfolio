@@ -5,7 +5,7 @@ import ContactAddress from '../components/ContactAddress'
 function Contact() {
   return (
     <>
-    <section className="w-screen">
+    <section className="w-full">
         <ContactMe/>
         <ContactAddress/>
     </section>

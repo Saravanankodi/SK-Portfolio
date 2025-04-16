@@ -17,25 +17,25 @@ function Header() {
             </p>
             <div className="icons w-4/5 flex items-center justify-evenly m-auto">
                 <a href="">
-                    <img src={github} alt="" className='h-12 w-12 lg:h-16 lg:w-16' />
+                    <img src={github} alt="" className='h-10 w-10 lg:h-16 lg:w-16' />
                 </a>
                 <a href="">
-                    <img src={google} alt=""  className='h-12 w-12 lg:h-16 lg:w-16'/>
+                    <img src={google} alt=""  className='h-10 w-10 lg:h-16 lg:w-16'/>
                 </a>
                 <a href="">
-                    <img src={linkedin} alt="" className='h-12 w-12 lg:h-16 lg:w-16' />
+                    <img src={linkedin} alt="" className='h-10 w-10 lg:h-16 lg:w-16' />
                 </a>
                 <a href="">
-                    <img src={instagram} alt="" className='h-12 w-12 lg:h-16 lg:w-16' />
+                    <img src={instagram} alt="" className='h-10 w-10 lg:h-16 lg:w-16' />
                 </a>
                 <a href="">
-                    <img src={meta} alt="" className='h-12 w-12 lg:h-16 lg:w-16' />
+                    <img src={meta} alt="" className='h-10 w-10 lg:h-16 lg:w-16' />
                 </a>
             </div>
             </header>
-            <div className="buttons w-full lg:flex items-center justify-evenly my-5">
-                <a href="" className="btn block h-12 w-max text-center my-2.5 m-auto">Follow me on LinkedIn</a>
-                <a href="" className="btn block h-12 w-max m-auto">see my Resume</a>
+            <div className="buttons w-full lg:flex items-center justify-center gap-5 my-5">
+                <a href="" className="btn block h-12 w-max text-center lg:m-0 m-auto my-2.5">Follow me on LinkedIn</a>
+                <a href="" className="btn block h-12 w-max lg:m-0 m-auto">see my Resume</a>
             </div>
         </main>
         <aside className="lg:w-1/2 m-auto">

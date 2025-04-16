@@ -8,7 +8,7 @@ export const Cards = ({title,details,date,icons}) => {
         <h2 className="heading text-3xl">{title}</h2>
       </header>
       <main className="w-full">
-        <div className="content w-3/4">
+        <div className="content w-full m-auto text-justify lg:w-3/4 ">
           <p className="text">
             {details}
           </p>
