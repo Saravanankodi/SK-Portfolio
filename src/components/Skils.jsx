@@ -25,28 +25,28 @@ function Skils() {
           </aside>
           <div className="lg:w-1/2 h-auto">
             <h2 className="heading w-fit lg:text-4xl text-3xl text-center m-auto p-2.5">
-              Full Stack Development
+                UI/UX Designer
             </h2>
             <div className="icons lg:w-3/4 flex justify-center items-center flex-wrap gap-5 m-auto">
-              <img src={xd} alt="" className="w-12" />
-              <img src={AWS} alt="" className="w-12" />
-              <img src={canva} alt="" className="w-12" />
-              <img src={css} alt="" className="w-12" />
               <img src={figma} alt="" className="w-12" />
-              <img src={html} alt="" className="w-12" />
-              <img src={java} alt="" className="w-12" />
-              <img src={mysql} alt="" className="w-12" />
-              <img src={office} alt="" className="w-12" />
+              <img src={xd} alt="" className="w-12" />
               <img src={sketch} alt="" className="w-12" />
+              <img src={canva} alt="" className="w-12" />
+              <img src={java} alt="" className="w-12" />
+              <img src={html} alt="" className="w-12" />
+              <img src={css} alt="" className="w-12" />
+              <img src={mysql} alt="" className="w-12" />
+              <img src={AWS} alt="" className="w-12" />
+              <img src={office} alt="" className="w-12" />
               <img src={typewrite} alt="" className="w-12" />
             </div>
             <ul className='h-auto w-full m-auto my-5'>
-              <li className='text w-full p-1.5 lg:text-xl'>User-Centered Design – Crafting intuitive and engaging user experiences.</li>
-              <li className='text w-full p-1.5 lg:text-xl'> Responsive UI Design – Designing adaptive interfaces for seamless cross-device experiences.</li>
-              <li className='text w-full p-1.5 lg:text-xl'>User Research & Testing – Conducting research, usability testing, and feedback analysis</li>
-              <li className='text w-full p-1.5 lg:text-xl'>Wireframing & Prototyping – Creating interactive prototypes using Figma & Adobe XD.</li>
-              <li className='text w-full p-1.5 lg:text-xl'>Design Systems & Components – Developing scalable and consistent UI components.</li>
-              <li className='text w-full p-1.5 lg:text-xl'> Collaboration & Leadership – Leading cross-functional teams to deliver impactful designs.</li>
+              <li className='text w-full p-1.5 lg:text-xl'><span className="font-bold">User-Centered Design</span> – Crafting intuitive and engaging user experiences.</li>
+              <li className='text w-full p-1.5 lg:text-xl'><span className="font-bold">Responsive UI Design</span> – Designing adaptive interfaces for seamless cross-device experiences.</li>
+              <li className='text w-full p-1.5 lg:text-xl'><span className="font-bold">User Research & Testing</span> – Conducting research, usability testing, and feedback analysis</li>
+              <li className='text w-full p-1.5 lg:text-xl'><span className="font-bold">Wireframing & Prototyping</span> – Creating interactive prototypes using Figma & Adobe XD.</li>
+              <li className='text w-full p-1.5 lg:text-xl'><span className="font-bold">Design Systems & Components</span> – Developing scalable and consistent UI components.</li>
+              <li className='text w-full p-1.5 lg:text-xl'><span className="font-bold">Collaboration & Leadership</span> – Leading cross-functional teams to deliver impactful designs.</li>
             </ul>
           </div>
         </main>

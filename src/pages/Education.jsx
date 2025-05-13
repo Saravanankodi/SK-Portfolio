@@ -3,7 +3,7 @@ import Degree from '../components/Degree'
 import Cards from '../components/Cards'
 import Certifications from '../components/Certifications'
 import figma from './../assets/Figma.png'
-import vector from './../assets/developer.svg'
+import vector from './../assets/education.svg'
 
 const data =[
     {
@@ -41,7 +41,7 @@ function Education() {
   return (
     <>
     <section className="w-full h-auto m-auto">
-        <header className="w-full h-auto lg:flex p-5">
+        <header className="w-full h-auto lg:flex items-center justify-center p-5">
             <aside className="lg:w-1/2">
                 <img src={vector} alt="education" className="w-2/3 m-auto" />
             </aside>

@@ -1,5 +1,5 @@
 import React from 'react'
-import vector from './../assets/developer.svg'
+import vector from './../assets/education.svg'
 
 function ContactAddress() {
   return (
@@ -13,8 +13,8 @@ function ContactAddress() {
                 Banani, Dhaka-1212, Bangladesh
             </p>
             <h2 className="heading text-2xl">Phone Number</h2>
-            <a href="" className="text text-gray-500">
-            +880 1953699363
+            <a href="tel:+919092579460" className="text text-gray-500">
+            9092579460
             </a>
         </main>
         <aside className="vector-img w-full lg:w-1/2 h-auto">

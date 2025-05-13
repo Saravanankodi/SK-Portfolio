@@ -10,26 +10,26 @@ function Skill() {
             Proficiency
         </h2>
             <SkilsLevel
-            title='Frontend'
-            width='80%'/>
+            title='Figma'
+            width='100%'/>
             <SkilsLevel
-            title='Backend'
+            title='AdobeXD'
+            width='75%'/>
+            <SkilsLevel
+            title='Sketch'
             width='60%'/>
-            <SkilsLevel
-            title='Cloud'
-            width='90%'/>
         </div>
         <div className="w-full lg:w-full h-auto p-5">
           <h2 className="heading text-center text-4xl">Language</h2>
             <SkilsLevel
-            title='Frontend'
-            width='80%'/>
-            <SkilsLevel
-            title='Backend'
-            width='60%'/>
-            <SkilsLevel
-            title='Cloud'
+            title='HTML'
             width='90%'/>
+            <SkilsLevel
+            title='CSS'
+            width='75%'/>
+            <SkilsLevel
+            title='JAVA'
+            width='65%'/>
         </div>
     </section>
     </>

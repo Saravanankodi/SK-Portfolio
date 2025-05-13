@@ -3,6 +3,25 @@ import { Plus, X } from "lucide-react";
 import WorkDetails from "./WorkDetails";
 // import { Button } from "@/components/ui/button";
 
+const data = [
+  {
+    job:"Senior UI/UX Designer",
+    company:"DesFlyer",
+    timeline:"2023- PRESENT",
+    details:[
+      "Leading UI/UX design for digital products, focusing on user research, wireframing,prototyping, and usability testing. Collaborating with developers, optimizing user flows, and mentoring interns while enhancing branding and digital experiences using Figma and Adobe XD."
+    ]
+  },
+  {
+    job:"Senior UI/UX Designer",
+    company:"DesFlyer",
+    timeline:"2023- PRESENT",
+    details:[
+      "Leading UI/UX design for digital products, focusing on user research, wireframing,prototyping, and usability testing. Collaborating with developers, optimizing user flows, and mentoring interns while enhancing branding and digital experiences using Figma and Adobe XD."
+    ]
+  }
+]
+
 export default function HeaderWithToggleNav() {
   const [open, setOpen] = useState(false);
 
@@ -15,11 +34,17 @@ export default function HeaderWithToggleNav() {
             {open ? <X className="w-5 h-5" /> : <Plus className="w-5 h-5" />}
         </button>
       </div>
-
       {/* Toggleable Nav Section */}
       {open && (
-        <div className="w-full h-auto flex flex-col px-4 py-2 bg-gray-50 border-t border-gray-200 animate-fadeIn">
-          <WorkDetails/>
+        <div className="w-full h-auto flex flex-col gap-5 px-4 py-2 bg-gray-50 border-t border-gray-200 animate-fadeIn">
+          {data.map((item,index)=>(
+            <WorkDetails
+            key={index}
+            jobName={item.job}
+            company={item.company}
+            timeline={item.timeline}
+            details={item.details}/>
+          ))}
         </div>
       )}
     </div>
