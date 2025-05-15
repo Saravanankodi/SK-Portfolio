@@ -11,7 +11,7 @@ function ContactMe() {
     <>
     <section className="contact h-auto w-full lg:flex items-center justify-center p-5">
         <aside className="img w-full lg:w-2/5 h-auto">
-            <img src={vector} alt="contact" className="w-80 rounded-full m-auto" />
+            <img src={vector} alt="contact" className="w-80 rounded-50 m-auto" />
         </aside>
         <main className="h-auto w-full  lg:w-3/5">
             <h1 className="heading text-center text-4xl lg:text-5xl my-5">
@@ -20,7 +20,7 @@ function ContactMe() {
             <p className="text text-justify m-auto lg:p-5 my-5">
                 I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Basic Programming, ML, AI, Android, Cloud and Opensource Development.
             </p>
-            <div className="icons lg:w-3/4 flex items-center justify-center gap-5 m-auto">
+            <div className="icons lg:w-3/4 flex items-center gap-5">
                             <a href="">
                                 <img src={github} alt="" className='h-10 w-10 lg:h-16 lg:w-16 ' />
                             </a>
@@ -37,7 +37,7 @@ function ContactMe() {
                                 <img src={meta} alt="" className='h-10 w-10 lg:h-16 lg:w-16' />
                             </a>
             </div>
-            <a href="" className="btn block w-fit my-2.5 m-auto">
+            <a href="" className="btn block w-fit my-2.5">
                 See My Resume
             </a>
         </main>

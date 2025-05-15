@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import WorkDetails from '../components/WorkDetails';
 import HeaderWithToggleNav from '../components/ToggleMenu';
-
+import vector from './../assets/experision.svg'
 function Experience() {
   return (
     <>
     <section className="w-full h-auto p-5">
       <header className="w-full h-auto lg:flex items-center justify-center m-auto">
           <aside className="lg:w-1/2">
-          
+            <img src={vector} alt="experision" className="w-2/3 lg:w-11/12 m-auto" />
           </aside>
           <main className="lg:w-1/2">
             <h2 className="heading text-center text-4xl lg:text-5xl my-2.5">

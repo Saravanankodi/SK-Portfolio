@@ -48,10 +48,18 @@
 }
 .btn 
 {
-    background-color: #001c55;
+    background-color: #0496ff;
+    border: 1px solid #fff;
     color: #fff;
     border-radius:10px ;
     padding: 10px;
+    transition: .5s ease-in-out;
+}
+.btn:hover
+{
+  background-color: transparent;
+  color: #0496ff;
+  border: 1px solid #0496ff;
 }
 body {
   /* margin: 0;

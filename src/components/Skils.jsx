@@ -10,7 +10,7 @@ import office from './../assets/Office 365.png'
 import sketch from './../assets/Sketch.png'
 import typewrite from './../assets/Typewriter.png'
 import mysql from './../assets/mySql.png'
-import vector from './../assets/developer.svg'
+import vector from './../assets/about.svg'
 
 function Skils() {
   return (
@@ -19,9 +19,9 @@ function Skils() {
         <h1 className="heading w-fit text-4xl lg:text-5xl m-auto text-center">
             What I Do?
         </h1>
-        <main className="condent w-4/5 h-auto lg:flex items-center justify-center m-auto">
+        <main className="condent w-4/5 h-auto lg:flex items-center justify-center lg:gap-5 m-auto">
           <aside className="lg:w-1/2">
-            <img src={vector} alt="skils" className="w-2/3 m-auto" />
+            <img src={vector} alt="skils" className="w-2/3 lg:w-full m-auto" />
           </aside>
           <div className="lg:w-1/2 h-auto">
             <h2 className="heading w-fit lg:text-4xl text-3xl text-center m-auto p-2.5">
@@ -32,11 +32,8 @@ function Skils() {
               <img src={xd} alt="" className="w-12" />
               <img src={sketch} alt="" className="w-12" />
               <img src={canva} alt="" className="w-12" />
-              <img src={java} alt="" className="w-12" />
               <img src={html} alt="" className="w-12" />
               <img src={css} alt="" className="w-12" />
-              <img src={mysql} alt="" className="w-12" />
-              <img src={AWS} alt="" className="w-12" />
               <img src={office} alt="" className="w-12" />
               <img src={typewrite} alt="" className="w-12" />
             </div>

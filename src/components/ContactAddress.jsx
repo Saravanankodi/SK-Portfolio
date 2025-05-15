@@ -1,5 +1,5 @@
 import React from 'react'
-import vector from './../assets/education.svg'
+import vector from './../assets/contact.svg'
 
 function ContactAddress() {
   return (

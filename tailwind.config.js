@@ -17,6 +17,9 @@ export default {
       },
       colors:{
         primary:"#0496ff"
+      },
+      borderRadius:{
+        50:"48%"
       }
     },
   },

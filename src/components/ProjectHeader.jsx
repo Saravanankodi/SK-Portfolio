@@ -1,15 +1,15 @@
 import React from 'react'
-import vector from './../assets/developer.svg'
+import vector from './../assets/projects.svg'
 
 function ProjectHeader() {
   return (
     <>
     <section className="w-full h-auto block lg:flex justify-center items-center">
         <aside className="lg:w-1/2">
-        <img src={vector} alt="project" className="w-2/3 m-auto" />
+        <img src={vector} alt="project" className="w-2/3 lg:w-11/12 m-auto" />
         </aside>
         <main className="lg:w-1/2">
-            <h2 className="heading text-5xl text-center my-2.5 m-auto">
+            <h2 className="heading text-5xl text-center my-2.5 lg:my-5 m-auto">
                 Projects
             </h2>
             <p className="text w-4/5 text-justify m-auto">
