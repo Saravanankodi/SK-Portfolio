@@ -43,7 +43,7 @@ function Education() {
     <section className="w-full h-auto m-auto">
         <header className="w-full h-auto lg:flex items-center justify-center p-5">
             <aside className="lg:w-1/2">
-                <img src={vector} alt="education" className="w-2/3 m-auto" />
+                <img src={vector} alt="education" className="w-4/5 m-auto" />
             </aside>
             <main className="lg:w-1/2 leading-10">
                 <h1 className="heading text-4xl lg:text-6xl my-5 text-center">
@@ -57,6 +57,9 @@ function Education() {
         <main className="h-auto w-full p-5 lg:p-0">
             <Degree/>
         </main>
+            <h1 className="heading text-4xl lg:text-6xl my-5 text-center">
+                Certifications
+            </h1>
         <div className="w-full grid grid-cols-1 lg:grid-cols-4 gap-5 p-5">
             {data.map((item,index)=>(
                 <Certifications

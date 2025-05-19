@@ -5,7 +5,7 @@ export const Cards = ({title,details,date,icons}) => {
     <>
     <section className="w-full h-auto bg-white text-black p-5 rounded-lg">
       <header className="w-full">
-        <h2 className="heading text-3xl">{title}</h2>
+        <h2 className="heading text-3xl text-center">{title}</h2>
       </header>
       <main className="w-full">
         <div className="content w-full m-auto text-justify lg:w-3/4 ">

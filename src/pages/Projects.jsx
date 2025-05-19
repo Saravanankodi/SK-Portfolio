@@ -15,7 +15,7 @@ const data = [
     details:'My best experience is to create Full Stack projects and deploy them to web applications using cloud infrastructure. Stil trying to gain experience by trying my hands on different projects.',
     date:'2536215',
     icons:[
-      canva,css,figma,html,xd,AWS
+      figma,canva
     ]
   },
   {
@@ -23,7 +23,7 @@ const data = [
     details:'My best experience is to create Full Stack projects and deploy them to web applications using cloud infrastructure. Stil trying to gain experience by trying my hands on different projects.',
     date:'2536215',
     icons:[
-      canva,css,figma,html,xd,AWS
+      figma,canva
     ]
   },
   {
@@ -31,7 +31,7 @@ const data = [
     details:'My best experience is to create Full Stack projects and deploy them to web applications using cloud infrastructure. Stil trying to gain experience by trying my hands on different projects.',
     date:'2536215',
     icons:[
-      canva,css,figma,html,xd,AWS
+      figma,canva
     ]
   },
 ]

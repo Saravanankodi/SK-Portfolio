@@ -20,6 +20,9 @@ export default {
       },
       borderRadius:{
         50:"48%"
+      },
+      width:{
+        500:"600px"
       }
     },
   },

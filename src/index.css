@@ -49,9 +49,8 @@
 .btn 
 {
     background-color: #0496ff;
-    border: 1px solid #fff;
     color: #fff;
-    border-radius:10px ;
+    border-radius:8px ;
     padding: 10px;
     transition: .5s ease-in-out;
 }

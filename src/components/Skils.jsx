@@ -5,23 +5,23 @@ import canva from './../assets/Canva.png'
 import css from './../assets/CSS3.png'
 import figma from './../assets/Figma.png'
 import html from './../assets/Html 5.png'
-import java from './../assets/Java.png'
+// import java from './../assets/Java.png'
 import office from './../assets/Office 365.png'
 import sketch from './../assets/Sketch.png'
 import typewrite from './../assets/Typewriter.png'
-import mysql from './../assets/mySql.png'
+// import mysql from './../assets/mySql.png'
 import vector from './../assets/about.svg'
 
 function Skils() {
   return (
     <>
     <section className="skils w-full h-auto m-auto">
-        <h1 className="heading w-fit text-4xl lg:text-5xl m-auto text-center">
+        <h1 className="heading w-fit text-4xl lg:text-6xl m-auto text-center">
             What I Do?
         </h1>
-        <main className="condent w-4/5 h-auto lg:flex items-center justify-center lg:gap-5 m-auto">
+        <main className="condent w-full h-auto lg:flex items-center justify-center lg:gap-5 m-auto">
           <aside className="lg:w-1/2">
-            <img src={vector} alt="skils" className="w-2/3 lg:w-full m-auto" />
+            <img src={vector} alt="skils" className="w-2/3 lg:w-4/5 m-auto" />
           </aside>
           <div className="lg:w-1/2 h-auto">
             <h2 className="heading w-fit lg:text-4xl text-3xl text-center m-auto p-2.5">
