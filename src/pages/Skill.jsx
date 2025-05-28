@@ -4,9 +4,9 @@ import vector from './../assets/developer.svg'
 function Skill() {
   return (
     <>
-    <section className="w-full h-auto m-auto lg:px-10">
-        <main className="w-full lg:flex m-auto">
-            <div className="w-full lg:w-3/5 h-auto p-5">
+    <section className="w-full h-auto m-auto sm:px-10">
+        <main className="w-full sm:flex m-auto">
+            <div className="w-full sm:w-3/5 h-auto p-5">
             <h2 className="heading text-center text-3xl">
                 Proficiency
             </h2>
@@ -31,7 +31,7 @@ function Skill() {
               <img src={vector} alt="vector-img" className='w-4/5 m-auto' />
             </div>
         </main>
-        <div className="w-full lg:w-full h-auto p-5">
+        <div className="w-full sm:w-full h-auto p-5">
           <h2 className="heading text-center text-4xl">Language</h2>
             <SkilsLevel
             title='HTML'

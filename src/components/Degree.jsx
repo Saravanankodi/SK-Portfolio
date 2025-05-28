@@ -1,19 +1,19 @@
 import React from 'react'
-
+import logo from '../assets/kings.png'
 function Degree() {
   return (
     <>
     <section className="degree h-auto w-full">
-        <h1 className="heading text-center text-4xl lg:text-5xl">
+        <h1 className="heading text-center text-4xl sm:text-5xl">
             Degrees Received
         </h1>
-        <div className="lg:w-4/5 lg:h-4/5 lg:flex items-center justify-center gap-5 m-auto">
-            <aside className="logo w-1/4 h-auto">
-
+        <div className="sm:w-4/5 sm:h-4/5 sm:flex items-center justify-center gap-5 m-auto">
+            <aside className="logo w-1/4 hidden sm:block h-auto">
+                <img src={logo} alt="logo" className="m-auto rounded-lg" />
             </aside>
-            <main className="condent block my-5 relative lg:w-3/4 h-max border-2 border-white rounded-xl">
-                <header className="w-full h-max lg:h-20 lg:flex justify-between items-center lg:p-2.5 rounded-xl bg-blue-500">
-                    <div className="name lg:leading-10 p-2.5">
+            <main className="condent block my-5 relative sm:w-3/4 h-max border-2 border-white rounded-xl">
+                <header className="w-full h-max sm:h-20 sm:flex justify-between items-center sm:p-2.5 rounded-xl bg-blue-500">
+                    <div className="name sm:leading-10 p-2.5">
                         <h2 className="heading text-2xl">
                             Kings College of Engineering
                         </h2>
@@ -21,7 +21,7 @@ function Degree() {
                             B.E. in Computer Science and Engineering
                         </p>
                     </div>
-                    <div className="regulation lg:leading-10 p-2.5">
+                    <div className="regulation sm:leading-10 p-2.5">
                         <p className="text text-base">
                             March 2016 - January 2021
                         </p>

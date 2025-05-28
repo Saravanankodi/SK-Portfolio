@@ -5,7 +5,7 @@ import Skils from '../components/Skils'
 function Home() {
   return (
     <>
-    <section className="w-full h-auto">
+    <section className="w-full h-auto p-5">
         <Header/>
         <Skils/>
     </section>

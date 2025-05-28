@@ -39,9 +39,9 @@ const data = [
 function Projects() {
   return (
     <>
-    <section className="w-full h-auto">
+    <section className="w-full h-auto p-5">
           <ProjectHeader/>
-          <main className="w-full grid grid-cols-1 lg:grid-cols-2  gap-5 p-5">
+          <main className="w-full grid grid-cols-1 sm:grid-cols-2  gap-5">
             {data.map((item,index)=>(
             <Cards
             key={index}

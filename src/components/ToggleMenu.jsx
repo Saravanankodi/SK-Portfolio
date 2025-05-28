@@ -6,18 +6,38 @@ import WorkDetails from "./WorkDetails";
 const data = [
   {
     job:"Senior UI/UX Designer",
-    company:"DesFlyer",
-    timeline:"2023- PRESENT",
+    company:"Desflyer Pvt Ltd",
+    timeline:"Nov 2023 - Present Founder & Lead Designer",
     details:[
-      "Leading UI/UX design for digital products, focusing on user research, wireframing,prototyping, and usability testing. Collaborating with developers, optimizing user flows, and mentoring interns while enhancing branding and digital experiences using Figma and Adobe XD."
+      "- Built a product and service-based company from the ground up, combining business strategy with human-centered design.",
+      "- Designed intuitive and modern interfaces for SaaS products, websites, and mobile apps across various industries.",
+      "- Led UI/UX design for multiple client projects, from research and wireframing to prototyping and final delivery.",
+      "- Conducted user research, usability testing, and A/B testing to improve product usability and performance.",
+      "- Mentored interns and junior designers; curated and conducted fullstack internship programs focused on design and development.",
+      "Tools used: Figma, Adobe XD, Webflow, Miro, Canva, Illustrator, HTML/CSS (for handoff)"
     ]
   },
   {
-    job:"Senior UI/UX Designer",
-    company:"DesFlyer",
-    timeline:"2023- PRESENT",
+    job:"UI/UX Designer",
+    company:"Baskethunt Pvt Ltd",
+    timeline:"May 2022 - Oct 2023",
     details:[
-      "Leading UI/UX design for digital products, focusing on user research, wireframing,prototyping, and usability testing. Collaborating with developers, optimizing user flows, and mentoring interns while enhancing branding and digital experiences using Figma and Adobe XD."
+      "- Revamped the user interface of an e-commerce platform, improving conversion rate and reducing drop-offs by 25%.",
+      "- Worked closely with product and development teams to translate business goals into effective user experiences.",
+      "- Delivered wireframes, user flows, high-fidelity prototypes, and developer handoff documents for desktop and mobile apps.",
+      "- Implemented consistent design systems to ensure visual coherence across platforms.",
+      "Tools used: Figma, Zeplin, Adobe XD, Trello, Notion"
+    ]
+  },
+  {
+    job:"Freelance UI/UX Designer",
+    company:"Remote Projects",
+    timeline:"2021 - 2022",
+    details:[
+      "- Delivered end-to-end UI/UX solutions for 10+ clients in domains including education, healthtech, and logistics.",
+      "- Focused on building user-first experiences with clean, modern aesthetics and clear UX flows.",
+      "- Created brand identities, responsive website designs, mobile app designs, and pitch decks.",
+      "Tools used: Figma, Adobe XD, Photoshop, Canva"
     ]
   }
 ]
