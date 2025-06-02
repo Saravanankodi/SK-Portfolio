@@ -5,9 +5,9 @@ import WorkDetails from "./WorkDetails";
 
 const data = [
   {
-    job:"Senior UI/UX Designer",
-    company:"Desflyer Pvt Ltd",
-    timeline:"Nov 2023 - Present Founder & Lead Designer",
+    job:"UI/UX Designer",
+    company:"DesFlyer",
+    timeline:"Nov 2023 - Feb 2025",
     details:[
       "- Built a product and service-based company from the ground up, combining business strategy with human-centered design.",
       "- Designed intuitive and modern interfaces for SaaS products, websites, and mobile apps across various industries.",
@@ -18,9 +18,9 @@ const data = [
     ]
   },
   {
-    job:"UI/UX Designer",
+    job:"UI/UX Designer Intern",
     company:"Baskethunt Pvt Ltd",
-    timeline:"May 2022 - Oct 2023",
+    timeline:"24/07/2023 - 26/09/2023",
     details:[
       "- Revamped the user interface of an e-commerce platform, improving conversion rate and reducing drop-offs by 25%.",
       "- Worked closely with product and development teams to translate business goals into effective user experiences.",

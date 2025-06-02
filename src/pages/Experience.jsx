@@ -18,7 +18,7 @@ function Experience() {
                 Work and Volunteership
             </p>
             <p className="text text-base sm:text-xl text-justify sm:p-5">
-              Fullstack Developer with over 4 years of hands-on experience in agile development, specializing in React, NextJs, and .Net. Successfully led and mentored teams through 4 projects, including a major North American initiative involving millions of driver records, all within tight deadlines while managing multiple concurrent projects. Actively engaged in open-source community, further honing my skills, ensuring I am a valuable asset to any development team.
+                Dedicated and innovative UI/UX Designer with 3 years of experience in designing user-centric, intuitive, and visually compelling digital interfaces. Skilled in creating seamless user experiences for web and mobile applications using tools like Figma, Adobe XD, and Sketch.Proficient in conducting user research, usability testing, and feedback analysis to drive informed design decisions.
             </p>
           </main>
       </header>

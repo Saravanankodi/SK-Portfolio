@@ -11,7 +11,7 @@ import sketch from './../assets/Sketch.png'
 import typewrite from './../assets/Typewriter.png'
 // import mysql from './../assets/mySql.png'
 import vector from './../assets/about.svg'
-
+import list from './../assets/point.png'
 function Skils() {
   return (
     <>
@@ -37,9 +37,13 @@ function Skils() {
               <img src={office} alt="" className="w-12" />
               <img src={typewrite} alt="" className="w-12" />
             </div>
-            <ul className='h-auto w-full list-disc list-inside m-auto my-5'>
-              <li className='text w-full p-1.5 sm:text-xl'><span className="font-bold">User-Centered Design</span> – Crafting intuitive and engaging user experiences.</li>
-              <li className='text w-full p-1.5 sm:text-xl'><span className="font-bold">Responsive UI Design</span> – Designing adaptive interfaces for seamless cross-device experiences.</li>
+            <ul className='h-auto w-full m-auto my-5'>
+              <li className='text w-full p-1.5 sm:text-xl'>
+                  <span className="font-bold">User-Centered Design</span> – Crafting intuitive and engaging user experiences.
+              </li>
+              <li className='text w-full p-1.5 sm:text-xl'>
+                  <span className="font-bold">Responsive UI Design</span> – Designing adaptive interfaces for seamless cross-device experiences.
+              </li>
               <li className='text w-full p-1.5 sm:text-xl'><span className="font-bold">User Research & Testing</span> – Conducting research, usability testing, and feedback analysis</li>
               <li className='text w-full p-1.5 sm:text-xl'><span className="font-bold">Wireframing & Prototyping</span> – Creating interactive prototypes using Figma & Adobe XD.</li>
               <li className='text w-full p-1.5 sm:text-xl'><span className="font-bold">Design Systems & Components</span> – Developing scalable and consistent UI components.</li>

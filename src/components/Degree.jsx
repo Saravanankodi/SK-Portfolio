@@ -8,8 +8,8 @@ function Degree() {
             Degrees Received
         </h1>
         <div className="sm:w-4/5 sm:h-4/5 sm:flex items-center justify-center gap-5 m-auto">
-            <aside className="logo w-1/4 hidden sm:block h-auto">
-                <img src={logo} alt="logo" className="m-auto rounded-lg" />
+            <aside className="logo sm:w-1/4 block h-auto">
+                <img src={logo} alt="logo" className="w-1/2 sm:w-full m-auto rounded-lg" />
             </aside>
             <main className="condent block my-5 relative sm:w-3/4 h-max border-2 border-white rounded-xl">
                 <header className="w-full h-max sm:h-20 sm:flex justify-between items-center sm:p-2.5 rounded-xl bg-blue-500">
@@ -23,7 +23,7 @@ function Degree() {
                     </div>
                     <div className="regulation sm:leading-10 p-2.5">
                         <p className="text text-base">
-                            March 2016 - January 2021
+                            Nov 2021 - May 2025
                         </p>
                         {/* <p className="text text-base">
                             CGPA 3.855 / 4.00

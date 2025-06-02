@@ -9,12 +9,12 @@ function ContactAddress() {
             <h2 className="heading text-3xl">
                 Address
             </h2>
-            <p className="text text-gray-500">
+            <p className="text">
               Mk Colony,North street,Kabisthalam,
               Thanjavur -614203
             </p>
             <h2 className="heading text-3xl">Phone Number</h2>
-            <a href="tel:+919092579460" className="text text-gray-500">
+            <a href="tel:+919092579460" className="text">
                 9092579460
             </a>
         </main>
