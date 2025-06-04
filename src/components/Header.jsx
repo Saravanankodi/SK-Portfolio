@@ -5,7 +5,21 @@ import instagram from './../assets/Instagram.png'
 import linkedin from './../assets/LinkedIn.png'
 import meta from './../assets/Meta.png'
 import vector from './../assets/projects.svg'
+import resume from '../../public/resume.pdf'
+
 function Header() {
+    const handleDownload = () => {
+        // Replace with your file URL or path
+        const fileUrl = resume;
+        const fileName = 'sample.pdf';
+    
+        const link = document.createElement('a');
+        link.href = fileUrl;
+        link.download = fileName;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      };
   return (
     <>
     <section className="header w-full sm:flex sm:justify-content-center sm:items-center">
@@ -38,7 +52,7 @@ function Header() {
             </header>
             <div className="buttons sm:w-4/5 m-auto sm:flex items-center gap-5 my-5">
                 <a href="" className="btn block h-12 w-max text-center sm:m-0 m-auto my-2.5">Follow me on LinkedIn</a>
-                <a href="" className="btn block h-12 w-max sm:m-0 m-auto">See my Resume</a>
+                <button onClick={handleDownload} className="btn block h-12 w-max sm:m-0 m-auto">See my Resume</button>
             </div>
         </main>
         <aside className="hidden sm:block m-auto">

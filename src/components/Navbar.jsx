@@ -1,6 +1,6 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-
+import logo from '../assets/sk logo.jpg'
 const navigation = [
   { name: 'Home', href: '/', current: true },
   { name: 'Skill', href: 'skill', current: false },
@@ -29,8 +29,9 @@ export default function Navbar() {
             </DisclosureButton>
           </div>
           <div className="flex flex-1 items-center justify-start sm:items-stretch sm:justify-between">
-            <div className="flex shrink-0 items-center">
-              <h2 className="logo">&#60;SaravananKodi/&gt;</h2>
+            <div className="flex shrink-0 gap-5 items-center">
+              <img src={logo} alt="logo" className="w-12 h-12 m-auto" />
+              <h2 className="heading text-3xl sm:text-4xl ">&#60;SaravananKodi/&gt;</h2>
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
