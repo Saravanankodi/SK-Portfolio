@@ -11,7 +11,7 @@ import html from './../assets/Html 5.png'
 
 const data = [
   {
-    title:'uiux',
+    title:'Desflyer Website',
     details:'My best experience is to create Full Stack projects and deploy them to web applications using cloud infrastructure. Stil trying to gain experience by trying my hands on different projects.',
     date:'2536215',
     icons:[
@@ -19,7 +19,7 @@ const data = [
     ]
   },
   {
-    title:'uiux',
+    title:'Hall Booking Software',
     details:'My best experience is to create Full Stack projects and deploy them to web applications using cloud infrastructure. Stil trying to gain experience by trying my hands on different projects.',
     date:'2536215',
     icons:[
@@ -27,7 +27,7 @@ const data = [
     ]
   },
   {
-    title:'uiux',
+    title:'SM ManPower website',
     details:'My best experience is to create Full Stack projects and deploy them to web applications using cloud infrastructure. Stil trying to gain experience by trying my hands on different projects.',
     date:'2536215',
     icons:[

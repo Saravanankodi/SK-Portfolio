@@ -5,20 +5,33 @@ import Certifications from '../components/Certifications'
 import logo from './../assets/Figma.png'
 import vector from './../assets/education.svg'
 
-const data =[
+const internship = [
+    {
+        driveLink:"https://drive.google.com/file/d/1apXRK3ax6zTwxtnhSQQaa_S_8fPoVaAB/view?usp=drive_link",
+        title:"BasketHunt",
+        logo: logo
+    },
+    {
+        driveLink:"https://drive.google.com/file/d/1fJZS7YiZq_OmC5_LfzLbnUt03i1AR9LO/view?usp=drive_link",
+        title:"TAS Innovation",
+        logo: logo
+    }
+]
+
+const cource =[
+    {
+        driveLink:"https://drive.google.com/file/d/1OfkCZudeRTBwL6SnpmYlwhrzsagQHXt4/view?usp=drive_link",
+        title:"UI/UX Design",
+        logo: logo
+    },
+    {
+        driveLink:"https://drive.google.com/file/d/1IZBeHLjunHRzLNyuwRwzYsmkLKKcXuUX/view?usp=drive_link",
+        title:"Video Editing",
+        logo: logo
+    },
     {
         driveLink:"https://drive.google.com/file/d/15QmXY5NZELKEZOTr041QeXBvSaIzGV6s/view?usp=drive_link",
         title:"Elements of AI",
-        logo: logo
-    },
-    {
-        driveLink:"https://drive.google.com/file/d/1O3WaRk4YGfktSZxPwuBj6GevM46LUMpM/view?usp=drive_link",
-        title:"Elements of AI",
-        logo: logo
-    },
-    {
-        driveLink:"https://drive.google.com/file/d/1Bvie7EBIHIUpK74PX9uoh6EJf5KNUNiq/view?usp=drive_link",
-        title:"Cloud Computing",
         logo: logo
     },
     {
@@ -32,18 +45,53 @@ const data =[
         logo: logo
     },
     {
-        driveLink:"https://drive.google.com/file/d/1wcG9dyNZLyMAGuIB6tm19UsdmVPHY6T4/view?usp=drive_link",
-        title:"",
-        logo: logo
-    },
-    {
-        driveLink:"https://drive.google.com/file/d/1UFFJkPj-Pbmz8KJqCjqsyDJtIcgNDl3_/view?usp=drive_link",
-        title:"",
-        logo: logo
-    },
-    {
         driveLink:"https://drive.google.com/file/d/1Z55GN0yQNjlfIzJTSlobdcCSDQTKxSTV/view?usp=drive_link",
-        title:"",
+        title:"Computer Vision",
+        logo: logo
+    },
+    {
+        driveLink:"https://drive.google.com/file/d/1-pLTKJyOdIZ_HsgQnKkKL-G-ZEiJ99Qi/view?usp=drive_link",
+        title:"Cyber Security",
+        logo: logo
+    },
+    {
+        driveLink:"https://drive.google.com/file/d/10O7NaJuOv-lAMfHw_WI3SAPdsVccAsyJ/view?usp=drive_link",
+        title:"Data Science",
+        logo: logo
+    },
+    {
+        driveLink:"https://drive.google.com/file/d/1Rt7ez2kgPZJ05q3hCJMzBgDaRrGnMAJu/view?usp=drive_link",
+        title:"Deep Learning",
+        logo: logo
+    },
+    {
+        driveLink:"https://drive.google.com/file/d/1yYuzT9jtV_xAYrxnNMEyIifBi_KX0Ckr/view?usp=drive_link",
+        title:"Digital Marketing",
+        logo: logo
+    },
+    {
+        driveLink:"https://drive.google.com/file/d/1L_YQwATgF0ZGFjICXzzssIBupoZh3Ks6/view?usp=drive_link",
+        title:"Ethical Hacking",
+        logo: logo
+    },
+    {
+        driveLink:"https://drive.google.com/file/d/10aQXSJekQ2GZrNWQrwIQqZldzJtLnXIw/view?usp=drive_link",
+        title:"Frontend Development",
+        logo: logo
+    },
+    {
+        driveLink:"https://drive.google.com/file/d/1N3_EUsej7r50UUfX_KjzKlc3bVIsq95n/view?usp=drive_link",
+        title:"IOT",
+        logo: logo
+    },
+    {
+        driveLink:"https://drive.google.com/file/d/1g8uEzaPLdP0DcrJb2LcQr4HLIfnFe8SZ/view?usp=drive_link",
+        title:"Java Programming",
+        logo: logo
+    },
+    {
+        driveLink:"https://drive.google.com/file/d/1bYSp9OID-5pKKqM_kHLTwIm-rimpkj4p/view?usp=drive_link",
+        title:"Android Fundamentals",
         logo: logo
     },
 ]
@@ -72,8 +120,20 @@ function Education() {
             </h1>
         <div className="w-full h-auto m-auto">
             <h2 className="heading text-3xl sm:text-5xl text-center">Internship</h2>
-            <div className="w-full grid grid-cols-1 sm:grid-cols-4 gap-5 p-5">
-                {data.map((item,index)=>(
+            <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-5 p-5">
+                {internship.map((item,index)=>(
+                    <Certifications
+                    key={index}
+                    link={item.driveLink}
+                    title={item.title}
+                    logo={item.logo}/>
+                    ))}
+            </div>
+        </div>
+        <div className="w-full h-auto m-auto">
+            <h2 className="heading text-3xl sm:text-5xl text-center">Course Completed</h2>
+            <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-5 p-5">
+                {cource.map((item,index)=>(
                     <Certifications
                     key={index}
                     link={item.driveLink}
