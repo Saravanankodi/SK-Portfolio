@@ -33,21 +33,21 @@ function Header() {
                 <img src={vector} alt="" className='w-11/12 sm:w-500 h-auto m-auto'/>
             </aside>
             <div className="icons sm:w-4/5 flex items-center justify-center sm:justify-start gap-5 m-auto">
-                <a href="">
+                <a href="https://github.com/Saravanankodi">
                     <img src={github} alt="" className='h-10 w-10 sm:h-16 sm:w-16' />
                 </a>
-                <a href="">
+                <a href="mailto:saravanankodi5@gmail.com">
                     <img src={google} alt=""  className='h-10 w-10 sm:h-16 sm:w-16'/>
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/saravanankodi">
                     <img src={linkedin} alt="" className='h-10 w-10 sm:h-16 sm:w-16' />
                 </a>
-                <a href="">
+                <a href="https://www.instagram.com/saravanan.kodi/?igsh=MTA4emw5ejNsb2JqMQ%3D%3D">
                     <img src={instagram} alt="" className='h-10 w-10 sm:h-16 sm:w-16' />
                 </a>
-                <a href="">
+                {/* <a href="">
                     <img src={meta} alt="" className='h-10 w-10 sm:h-16 sm:w-16' />
-                </a>
+                </a> */}
             </div>
             </header>
             <div className="buttons sm:w-4/5 m-auto sm:flex items-center gap-5 my-5">
