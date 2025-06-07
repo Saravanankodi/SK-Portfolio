@@ -4,7 +4,7 @@ import google from './../assets/Google.png'
 import instagram from './../assets/Instagram.png'
 import linkedin from './../assets/LinkedIn.png'
 import meta from './../assets/Meta.png'
-import vector from './../assets/projects.svg'
+import vector from './../assets/sk.jpeg'
 import resume from '../../public/resume.pdf'
 
 function Header() {
@@ -30,7 +30,7 @@ function Header() {
             "A passionate UI/UX designer who thrives on creating innovative and user-centric designs, constantly taking on new challenges that enhance analytical and technological skills."
             </p>
             <aside className="block w-full sm:hidden m-auto">
-                <img src={vector} alt="" className='w-11/12 sm:w-500 h-auto m-auto'/>
+                <img src={vector} alt="" className='sm:w-80 rounded-50 m-auto'/>
             </aside>
             <div className="icons sm:w-4/5 flex items-center justify-center sm:justify-start gap-5 m-auto">
                 <a href="https://github.com/Saravanankodi">
@@ -56,7 +56,7 @@ function Header() {
             </div>
         </main>
         <aside className="hidden sm:block m-auto">
-            <img src={vector} alt="" className='sm:w-500 h-auto m-auto'/>
+            <img src={vector} alt="" className='sm:w-80 rounded-50 m-auto'/>
         </aside>
     </section>
     </>

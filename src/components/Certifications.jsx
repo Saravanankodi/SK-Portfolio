@@ -6,7 +6,7 @@ export const Certifications = ({link,title,details,logo}) => {
     <a href={link} target='_blank' className="link w-full h-fit">
         <section className="h-min bg-white text-black w-full p-5 rounded-lg shadow-lg m-auto">
           <header className="h-1/2">
-            <img src={logo} alt="logo" className='h-20 m-auto'/>  
+            <img src={logo} alt="logo" className='w-2/5 m-auto'/>  
           </header>
           <main className="h-1/2">
             <h2 className="heading text-center text-3xl">
