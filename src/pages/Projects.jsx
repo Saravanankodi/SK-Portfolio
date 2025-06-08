@@ -12,15 +12,15 @@ import html from './../assets/Html 5.png'
 const data = [
   {
     title:'Desflyer Website',
-    details:'My best experience is to create Full Stack projects and deploy them to web applications using cloud infrastructure. Stil trying to gain experience by trying my hands on different projects.',
-    date:'2536215',
+    details:['Tittle:Kings Conferance','Tools:Figma','Duration:May 2025'],
+    date:'jan to otc',
     icons:[
       figma,canva
     ]
   },
   {
     title:'Hall Booking Software',
-    details:'My best experience is to create Full Stack projects and deploy them to web applications using cloud infrastructure. Stil trying to gain experience by trying my hands on different projects.',
+    details:['My best experience is to create Full Stack projects and deploy them to web applications using cloud infrastructure. Stil trying to gain experience by trying my hands on different projects.'],
     date:'2536215',
     icons:[
       figma,canva
@@ -28,7 +28,7 @@ const data = [
   },
   {
     title:'SM ManPower website',
-    details:'My best experience is to create Full Stack projects and deploy them to web applications using cloud infrastructure. Stil trying to gain experience by trying my hands on different projects.',
+    details:['My best experience is to create Full Stack projects and deploy them to web applications using cloud infrastructure. Stil trying to gain experience by trying my hands on different projects.'],
     date:'2536215',
     icons:[
       figma,canva
@@ -47,6 +47,7 @@ function Projects() {
             key={index}
             title={item.title}
             details={item.details}
+            date={item.date}
             icons={item.icons}/>
             ))}
           </main>

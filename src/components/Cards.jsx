@@ -7,15 +7,19 @@ export const Cards = ({title,details,date,icons}) => {
       <header className="w-full">
         <h2 className="heading text-3xl text-center">{title}</h2>
       </header>
-      <main className="w-full">
-        <div className="content w-full m-auto text-justify sm:w-3/4 ">
-          <p className="text">
-            {details}
-          </p>
-          <p className="text text-neutral-600">
+      <main className="w-full relative">
+        <div className="content w-full m-auto text-justify p-2.5 ">
+        {details.map((item,index)=>(
+            <p
+            key={index}
+            className='text'>
+            {item}
+            </p>
+          ))}
+        </div>
+          <p className="text w-fit absolute bottom-0 left-2.5 sm:text-xl">
             {date}
           </p>
-        </div>
         <div className="icons flex gap-2.5 items-center justify-end">
           {icons.map((icon,index)=>
           (
