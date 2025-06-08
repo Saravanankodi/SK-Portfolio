@@ -30,7 +30,7 @@ function Header() {
             "A passionate UI/UX designer who thrives on creating innovative and user-centric designs, constantly taking on new challenges that enhance analytical and technological skills."
             </p>
             <aside className="block w-full sm:hidden m-auto">
-                <img src={vector} alt="" className='sm:w-80 rounded-50 m-auto'/>
+                <img src={vector} alt="" className='img w-4/5 sm:w-2/5 h-auto rounded-50 m-auto'/>
             </aside>
             <div className="icons sm:w-4/5 flex items-center justify-center sm:justify-start gap-5 m-auto">
                 <a href="https://github.com/Saravanankodi">

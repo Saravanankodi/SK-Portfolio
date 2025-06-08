@@ -9,7 +9,7 @@ export const Certifications = ({link,title,details,logo}) => {
             <img src={logo} alt="logo" className='w-2/5 m-auto'/>  
           </header>
           <main className="h-1/2">
-            <h2 className="heading text-center text-3xl">
+            <h2 className="heading text-center text-2xl sm:text-3xl">
                 {title}
             </h2>
             <p className="text text-center text-2xl">

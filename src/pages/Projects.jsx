@@ -11,27 +11,60 @@ import html from './../assets/Html 5.png'
 
 const data = [
   {
-    title:'Desflyer Website',
+    title:'Website',
     details:['Tittle:Kings Conferance','Tools:Figma','Duration:May 2025'],
-    date:'jan to otc',
     icons:[
-      figma,canva
+      figma
     ]
   },
   {
-    title:'Hall Booking Software',
-    details:['My best experience is to create Full Stack projects and deploy them to web applications using cloud infrastructure. Stil trying to gain experience by trying my hands on different projects.'],
-    date:'2536215',
+    title:'Web Application',
+    details:['Tittle:SM Manpower','Tools:Figma','Duration:Feb 2025'],
     icons:[
-      figma,canva
+      figma
     ]
   },
   {
-    title:'SM ManPower website',
-    details:['My best experience is to create Full Stack projects and deploy them to web applications using cloud infrastructure. Stil trying to gain experience by trying my hands on different projects.'],
+    title:'Web Application',
+    details:['Tittle:Kings Hall Booking','Tools:Figma','Duration:Dec 2024'],
     date:'2536215',
     icons:[
-      figma,canva
+      figma
+    ]
+  },
+  {
+    title:'Website',
+    details:['Tittle:DesFlyer','Tools:Figma','Duration:Otc 2024 - Nov 2024'],
+    icons:[
+      figma
+    ]
+  },
+  {
+    title:'Web Application',
+    details:['Tittle:Hospitle Mangement','Tools:Java','Duration:Mar 2024 - Apr 2024'],
+    icons:[
+      figma
+    ]
+  },
+  {
+    title:'Web Application',
+    details:['Library Management','Tools:Python','Duration:Feb 2024 - Mar 2024'],
+    icons:[
+      figma
+    ]
+  },
+  {
+    title:'Web Application',
+    details:['Tittle:Car Maintance','Tools:Python','Duration:May 2024 - Jun 2024'],
+    icons:[
+      figma
+    ]
+  },
+  {
+    title:'Web Application',
+    details:['Tittle:Dot Web Browser','Tools:Python','Duration:Feb 2024 - Mar 2024'],
+    icons:[
+      figma
     ]
   },
 ]
@@ -41,13 +74,12 @@ function Projects() {
     <>
     <section className="w-full h-auto p-5">
           <ProjectHeader/>
-          <main className="w-full grid grid-cols-1 sm:grid-cols-2  gap-5">
+          <main className="w-full grid grid-cols-1 sm:grid-cols-3  gap-5">
             {data.map((item,index)=>(
             <Cards
             key={index}
             title={item.title}
             details={item.details}
-            date={item.date}
             icons={item.icons}/>
             ))}
           </main>
